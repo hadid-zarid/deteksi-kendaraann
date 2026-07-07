@@ -1,7 +1,7 @@
 import * as ort from 'onnxruntime-web';
 
 // Konfigurasi wasm agar bisa menemukan file wasm-nya
-ort.env.wasm.wasmPaths = 'https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/';
+ort.env.wasm.wasmPaths = 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.27.0/dist/';
 
 class OnnxService {
   constructor() {
